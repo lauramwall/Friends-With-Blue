@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
 
 body {
-    font-family: 'Lato';
+    background: #0f91db;
 }
 
 h1,
@@ -12,11 +12,15 @@ h5,
 h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800 !important;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
+}
+
+.fob-logo {
+    height: auto;
+    width: 100%;
 }
 
 .btn-xl {
-    text-transform: uppercase;
     padding: 1.5rem 3rem;
     font-size: 0.9rem;
     font-weight: 700;
@@ -54,14 +58,13 @@ h6 {
 }
 
 header.masthead {
-    position: fixed;
+    position: relative;
     height: 100%;
     width: 100%;
     overflow: hidden;
     padding-top: calc(7rem + 72px);
     padding-bottom: 7rem;
-    background: -webkit-gradient(linear, left bottom, left top, from(#0f91db), to(#0f91db));
-    background: linear-gradient(0deg, #0f91db 0%, #0f91db 100%);
+    background: #0f91db;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
@@ -85,8 +88,7 @@ header.masthead .bg-circle {
     z-index: 0;
     position: absolute;
     border-radius: 100%;
-    background: -webkit-gradient(linear, left bottom, left top, from(#0d82c5), to(#0d82c5));
-    background: linear-gradient(0deg, #0d82c5 0%, #0d82c5 100%);
+    background: #0f91db;
 }
 
 header.masthead .bg-circle-1 {
